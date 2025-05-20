@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: diario-fitness-backend
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn nomeprogetto.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: nomeprogetto.settings
+      - key: PYTHON_VERSION
+        value: 3.10

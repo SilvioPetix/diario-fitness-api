@@ -2,10 +2,10 @@ services:
   - type: web
     name: diario-fitness-backend
     env: python
+    pythonVersion: 3.10  # ✅ Inserito correttamente qui
     buildCommand: ""
     startCommand: gunicorn nomeprogetto.wsgi:application
     envVars:
       - key: DJANGO_SETTINGS_MODULE
         value: nomeprogetto.settings
-      - key: PYTHON_VERSION
-        value: 3.10
+

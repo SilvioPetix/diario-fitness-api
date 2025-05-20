@@ -104,7 +104,6 @@ pytube==15.0.0
 pytweening==1.2.0
 pytz==2024.2
 pywhatkit==5.4
-pywin32==306
 PyYAML==6.0.2
 qrcode==8.1
 referencing==0.35.1

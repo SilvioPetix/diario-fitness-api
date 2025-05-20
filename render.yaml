@@ -7,5 +7,5 @@ services:
     startCommand: gunicorn fitness_backend.wsgi:application
     envVars:
       - key: DJANGO_SETTINGS_MODULE
-        value: nomeprogetto.settings
+        value: fitness_backend.settings
 

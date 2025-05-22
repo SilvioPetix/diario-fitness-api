@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-&0w^d35xer$mb!nf(7+y_dp(*oa$_@%h0^d)9ud2sx7az+#yl)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['diario-fitness-api-2.onrender.com']
 
 
 # Application definition
